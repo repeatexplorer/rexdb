@@ -41,7 +41,7 @@ VVYVDDIVITGSDQDGIQ
 
 Classification of mobile elements is provided in tab-delimited classification table 
 which is referencing protein sequences via their REXdb_IDnumbers :
-```txt 
+```tsv 
 REXdbIDNumber  ClassLevel1  ClassLevel2 ClassLevel3 ...
 Numbers of classification levels are different for different types of mobile elements. Below are examples of records from the classification table:
 ```
