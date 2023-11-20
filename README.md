@@ -1,4 +1,6 @@
 # REXdb: Reference Database of Transposable Element Protein Domains
+[![DOI](https://zenodo.org/badge/721142949.svg)](https://zenodo.org/doi/10.5281/zenodo.10160279)
+
 
 REXdb is a comprehensive reference database specifically designed for the study of transposable element protein domains. It plays a crucial role in the analysis of repetitive sequences in genomic data.
 
