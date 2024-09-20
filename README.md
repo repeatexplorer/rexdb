@@ -15,7 +15,7 @@ are available on Galaxy server: https://repeatexplorer-elixir.cerit-sc.cz/galaxy
 ## Database Content
 REXdb consists of two primary databases:
 
-- Viridiplantae Database (current version: 3.0)
+- Viridiplantae Database (current version: 4.0)
 - Metazoa Database (current version: 3.1)
 
 Each database contains:
@@ -57,6 +57,87 @@ REXdb_ID6786 Class_I LTR Ty3/gypsy non-chromovirus OTA Tat TatII
 The classification of mobile elements is based the following hierarchical classification 
 scheme:
 
+**Viridiplantae v4.0**
+
+This version include additional sequences of non-angiosperm element and non-angiosperm lineages. 
+In the classification tree, new lineages are labeled with asterix 
+```txt
+   --mobile_element                             
+          ¦--Class_I                                
+          ¦   ¦--SINE                               
+          ¦   ¦--LTR                                
+          ¦   ¦   ¦--Ty1/copia                      
+          ¦   ¦   ¦       ¦--Ale                    
+          ¦   ¦   ¦       ¦--Alesia                 
+          ¦   ¦   ¦       ¦--Angela                 
+          ¦   ¦   ¦       ¦--Bianca                 
+          ¦   ¦   ¦       ¦--Bryco                  
+          ¦   ¦   ¦       ¦--Lyco                   
+          ¦   ¦   ¦       ¦--Gymco-III              
+          ¦   ¦   ¦       ¦--Gymco-I                
+          ¦   ¦   ¦       ¦--Gymco-II               
+          ¦   ¦   ¦       ¦--Ikeros                 
+          ¦   ¦   ¦       ¦--Ivana                  
+          ¦   ¦   ¦       ¦--Gymco-IV               
+          ¦   ¦   ¦       ¦--Osser                  
+          ¦   ¦   ¦       ¦--SIRE                   
+          ¦   ¦   ¦       ¦--TAR                    
+          ¦   ¦   ¦       ¦--Tork                   
+          ¦   ¦   ¦       ¦--Alexandra *                   
+          ¦   ¦   ¦       ¦--Ferco     *              
+          ¦   ¦   ¦       ¦--Bryana    *               
+          ¦   ¦   ¦       °--Ty1-outgroup           
+          ¦   ¦   °--Ty3/gypsy                      
+          ¦   ¦           ¦--non-chromovirus        
+          ¦   ¦           ¦   ¦--non-chromo-outgroup
+          ¦   ¦           ¦   ¦--Phygy              
+          ¦   ¦           ¦   ¦--Selgy              
+          ¦   ¦           ¦   °--OTA                
+          ¦   ¦           ¦       ¦--Athila         
+          ¦   ¦           ¦       ¦--Tatius  *         
+          ¦   ¦           ¦       °--Tat            
+          ¦   ¦           ¦           ¦--TatI       
+          ¦   ¦           ¦           ¦--TatII      
+          ¦   ¦           ¦           ¦--TatIII     
+          ¦   ¦           ¦           ¦--Ogre       
+          ¦   ¦           ¦           °--Retand     
+          ¦   ¦           °--chromovirus            
+          ¦   ¦               ¦--Chlamyvir          
+          ¦   ¦               ¦--Tcn1               
+          ¦   ¦               ¦--chromo-outgroup    
+          ¦   ¦               ¦--CRM                
+          ¦   ¦               ¦--Galadriel          
+          ¦   ¦               ¦--Tekay              
+          ¦   ¦               ¦--Reina              
+          ¦   ¦               ¦--Ferney  *              
+          ¦   ¦               °--chromo-unclass     
+          ¦   ¦--pararetrovirus                     
+          ¦   ¦--DIRS                               
+          ¦   ¦--Penelope                           
+          ¦   °--LINE                               
+          °--Class_II                               
+              ¦--Subclass_1                         
+              ¦   °--TIR                            
+              ¦       ¦--MITE                       
+              ¦       ¦--EnSpm/CACTA                  
+              ¦       ¦--hAT                        
+              ¦       ¦--Kolobok                    
+              ¦       ¦--Merlin                     
+              ¦       ¦--MuDR/Mutator                
+              ¦       ¦--Novosib                    
+              ¦       ¦--P                          
+              ¦       ¦--PIF/Harbinger              
+              ¦       ¦--PiggyBac                   
+              ¦       ¦--Sola1                      
+              ¦       ¦--Sola2                      
+              ¦       °--Tc1                        
+              ¦           °--Mariner                
+              °--Subclass_2                         
+                  °--Helitron
+```                  
+
+
+**Viridiplante v3.0**
 ```txt
    --mobile_element                             
           ¦--Class_I                                
