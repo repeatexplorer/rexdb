@@ -1,0 +1,1 @@
+Viridiplantae_v4.0_ALL_DNA.fasta filter=lfs diff=lfs merge=lfs -text
